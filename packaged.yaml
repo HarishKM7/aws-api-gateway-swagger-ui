@@ -11,7 +11,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Description: The Lambda function that serves the Swagger UI.
-      CodeUri: s3://harish-km-aws-sam-apps/0e0ce849d73806be952e34251d1710fe
+      CodeUri: s3://aws-sam-apps-harish-km/0e0ce849d73806be952e34251d1710fe
       Handler: app.handler
       Runtime: nodejs12.x
       Environment:
@@ -40,8 +40,8 @@ Metadata:
     Description: A Swagger UI for AWS API Gateway.
     Author: Harish KM
     SpdxLicenseId: MIT
-    LicenseUrl: s3://harish-km-aws-sam-apps/f7605c1e1bf9dce66bbf2c1e6ff98af1
-    ReadmeUrl: s3://harish-km-aws-sam-apps/a7b19fefc438bf560fe50a42a285fd2a
+    LicenseUrl: s3://aws-sam-apps-harish-km/f7605c1e1bf9dce66bbf2c1e6ff98af1
+    ReadmeUrl: s3://aws-sam-apps-harish-km/a7b19fefc438bf560fe50a42a285fd2a
     Labels:
     - swagger-ui
     - aws-sam
