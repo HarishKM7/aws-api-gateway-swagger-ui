@@ -8,6 +8,6 @@
   "license": "MIT",
   "dependencies": {
     "serverless-http": "^2.6.1",
-    "swagger-ui-express": "^4.1.6"
+    "swagger-ui-express": "^4.6.0"
   }
 }
