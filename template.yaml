@@ -15,7 +15,7 @@ Resources:
       Description: The Lambda function that serves the Swagger UI.
       CodeUri: swagger-ui/
       Handler: app.handler
-      Runtime: nodejs14.x
+      Runtime: nodejs20.x
       Environment:
         Variables:
           SWAGGER_SPEC_URL: !Ref SwaggerSpecURL
